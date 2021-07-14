@@ -11,4 +11,4 @@ function App() {
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
-ReactDOM.render(<App />, rootElement);
+root.render(<App />, rootElement);
